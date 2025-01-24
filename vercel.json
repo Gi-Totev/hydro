@@ -2,7 +2,8 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/dist/index.js"
+      "destination": "/dist/server.js"
     }
-  ]
+  ],
+  "cleanUrls": true
 }
